@@ -10,6 +10,17 @@ header {
   text-align: center;
   margin-bottom: 1em;
 }
+header {
+  background-image: url('Imagenes/twiceot9.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 300px; 
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .title-container {
   display: flex;
@@ -32,16 +43,20 @@ header {
 }
 
 h1 {
-  font-family: 'Bitcount Prop Double Ink', cursive;
+  font-family: 'Fascinate Inline', cursive;
   font-size: 3em;
   font-weight: 700;
-  color: #000000;
+  color: #323054;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin: 0;
 }
+h1 {
+  text-shadow: 2px 2px 3px rgb(255, 255, 255);
+}
+
 h2 {
-  font-family: 'Libertinus Keyboard', cursive;
+  font-family: 'Bitcount Prop Double Ink', cursive;
   font-weight: 700;
   color: #000000;
   letter-spacing: 0.05em;
@@ -65,7 +80,7 @@ a {
 
 a:hover {
   cursor: pointer;
-  color: #e63946; 
+  color: #ffa7ae; 
 }
 
 img {
