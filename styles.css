@@ -14,7 +14,7 @@ header {
   background-image: url('Imagenes/twiceot9.jpeg');
   background-size: cover;
   background-position: center;
-  height: 300px; 
+  height: 200px; 
   color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
@@ -42,14 +42,43 @@ header {
   object-fit: contain;
 }
 
+.navbar {
+  background-color: #a10f3d;
+  padding: 1em 0;
+  justify-content: center;
+  margin-bottom: 2em;
+  position: sticky;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+.navbar li
+{
+  position: relative;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Rammetto One', serif;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s, color 0.3s;
+}
 h1 {
-  font-family: 'Fascinate Inline', cursive;
+  font-family: 'Cabin Sketch', cursive;
   font-size: 3em;
-  font-weight: 700;
-  color: #323054;
+  font-weight: 900;
+  color: #000000;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  margin: 0;
+  margin: 1 em auto 2em auto;
 }
 h1 {
   text-shadow: 2px 2px 3px rgb(255, 255, 255);
