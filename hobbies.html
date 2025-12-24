@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobbies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap" rel="stylesheet">
@@ -11,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Libertinus+Keyboard&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Libertinus+Keyboard&family=Rammetto+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fascinate+Inline&family=Libertinus+Keyboard&family=Rammetto+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="otro-styles.css">
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -26,7 +29,7 @@
   <ul>
     <li><a href="index.html">Inicio</a></li>
     <li><a href="musica.html">Música</a></li>
-    <li><a href="hobbies.html">Hobbies</a></li>
+    <li><a href="hobbies.html" class="activo">Hobbies</a></li>
     <li><a href="cosas-que-lei.html">Cosas que leí alguna vez</a></li>
     <li><a href="contacto.html">Contacto</a></li>
   </ul>
@@ -34,20 +37,30 @@
     <section class="hobbies">
         <h2>Hobbies</h2>
 
+        <div class="banner-hobby">
         <article>
-            <h3>Ilustrar</h3>
+            <div class="fondo-titulo" style="background-image: url('Imagenes/Sympa.jpg');"><h3>Ilustrar</h3></div>
             <p>Claro que dibujo, pero más que eso ilustro. Si quieren saber la diferencia hagan click <a href="https://www.ttamayo.com/2023/01/ilustracion-y-dibujo-diferencias/" target="_blank" >aquí</a></a></p>
         </article>
+        </div>
 
+      <div class="banner-hobby">
         <article>
-            <div class="fondo-titulo" style="background-image: url('Imágenes\ pp\ idweb/uñas-fondo.png');"> <h3>Hacer uñas</h3> </div>
+            <div class="fondo-titulo" style="background-image: url('Imágenes\ pp\ idweb/uñas-fondo.png');"><h3>Hacer uñas</h3> </div>
             <p>Mi mamá es estilista y le falta una manicurista en su tienda, así que me recomendó que aprenda y pues es bonito. Me gusta lo meticuloso que hay que ser con los detalles.</p>
         </article>
+      </div>
 
+      <div class="banner-hobby">
         <article>
-            <h3>Senderismo urbano</h3>
+            <div class="fondo-titulo" style="background-image: url('Imagenes/paisaje2.png');"><h3>Senderismo urbano</h3></div>
             <p>No tengo plata para viajar ni plata para una cámara de calidad, así que paseo por la ciudad y tomo fotos con mi celular. Hobbie económico y de alguna forma gratificante.</p>
         </article>
-    
+      </div>
 </body>
+<footer>
+  
+  <p>&copy; 2025 Mi Portafolio Personal. Todos los derechos reservados.</p>
+
+</footer>
 </html>
